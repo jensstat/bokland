@@ -1,0 +1,337 @@
+﻿id;title;author;year;type;genre;language;goodreads;tags;hasRead;jensrating;cover_url;series
+1;How to Read a Book: The Classic Guide to Intelligent Reading ;"Mortimer J. Adler; Charles Van Doren";1940;Non-fiction;Selv-hjelp;Engelsk;3.98;"Guidelines; bokanalyse";Ikke lest;0;;Nei
+2;Freakanomics: A Rogue Economist Explores the Hidden Side of Everything;"Stephen D. Levitt; Stephen J. Dubner";2005;Non-fiction;Forskning;Engelsk;4.01;"Forskning; Økonomi; statistikk";Lest;3;;Nei
+3;Confessions of a Public Speaker;Scott Berkun;2009;Non-fiction;Selv-hjelp;Engelsk;3.94;"Psykologi; kommunikasjon";Lest;3;;Nei
+4;The Book of Tea: A Japanese Harmony of Art, Culture, and the Simple Life;Kakuzo Okakura;1906;Non-fiction;Filosofi;Engelsk;3.85;"Filosofi; kultur; japan";Ikke lest;0;;Nei
+5;Supercommunicators: How to Unlock the Secret Language of Connection;Charles Duhigg;2024;Non-fiction;Selv-hjelp;Engelsk;4.06;"Psykologi; kommunikasjon";Ikke lest;0;;Nei
+6;The Body: A Guide for Occupants;Bill Bryson;2019;Non-fiction;Forskning;Engelsk;4.32;"Forskning; helse";Ikke lest;0;;Nei
+7;The Anxious Generation: How the Great Rewiring of Childhood is Causing an Epidemic of Mental Illness;Jonathan Haidt;2024;Non-fiction;Psykologi;Engelsk;4.49;"Psykologi; oppdragelse";Ikke lest;0;;Nei
+8;Chip War: The Fight for the World's Most Critical Technology;Chris Miller;2022;Non-fiction;Teknologi;Engelsk;4.44;"Business; Økonomi; teknologi";Ikke lest;0;;Nei
+9;Hunt, Gather, Parent: What Ancient Cultures Can Teach Us About the Lost Art of Raising Happy, Helpful Little Humans;Michaeleen Doucleff;2021;Non-fiction;Psykologi;Engelsk;4.14;"Psykologi; oppdragelse";Ikke lest;0;;Nei
+10;My Hygge Home: How to Make Home Your Happy Place;Meik Wiking;2022;Non-fiction;Selv-hjelp;Engelsk;4.01;"Psykologi; interiør";Lest;2;;Nei
+11;Beyond the Wand: the Magic and Mayhem of Growing Up a Wizard;Tom Felton;2022;Non-fiction;Biografi;Engelsk;4.3;Biografi;Ikke lest;0;;Nei
+12;Unmasking Autism: Discovering the New Faces of Neurodiversity;Devon Price;2022;Non-fiction;Psykologi;Engelsk;4.45;Psykologi;Ikke lest;0;;Nei
+13;Ultra Processed People: The Science Behind Food That isn't Food ;Chris van Tulleken;2023;Non-fiction;Forskning;Engelsk;4.43;"Forskning; helse";Ikke lest;0;;Nei
+14;Think Again: The Power of Knowing What you Don't Know;Adam Grant;2021;Non-fiction;Selv-hjelp;Engelsk;4.17;"Psykologi; selv-hjelp; ";Ikke lest;0;;Nei
+15;Magic Pill: The Extraordinary Benefits and Disturbing Risks of the New Weight-Loss Drugs;Johann Hari ;2024;Non-fiction;Forskning;Engelsk;4.33;"Forskning; helse";Ikke lest;0;;Nei
+16;Co-Intelligence: Living and Working With AI ;Ethan Mollick;2024;Non-fiction;Teknologi;Engelsk;4.15;"AI; business; teknologi";Ikke lest;0;;Nei
+17;Unruly: The Ridiculous History of English Kings and Queens;David Mitchell;2023;Non-fiction;Historie;Engelsk;4.17;"Historie; Humor";Lest;4;;Nei
+18;Bad Therapy: Why the Kids Aren't Growing Up;Abigail Shrier;2024;Non-fiction;Psykologi;Engelsk;4.1;"Psykologi; oppdragelse";Ikke lest;0;;Nei
+19;The Wager: A Tale of Shipwreck, Mutiny and Murder;David Grann;2023;Non-fiction;Historie;Engelsk;4.19;"Historie; Eventyr";Ikke lest;0;;Nei
+20;A Short History of Nearly Everything;Bill Bryson;2003;Non-fiction;Historie;Engelsk;4.22;"Historie; forskning";Ikke lest;0;;Nei
+21;Digital Minimalism: Choosing a Focused Life in a Noisy World;Cal Newport;2019;Non-fiction;Selv-hjelp;Engelsk;4.06;"Psykologi; Produktivitet; teknologi";Ikke lest;0;;Nei
+22;Maybe You Should Talk With Someone;Lori Gottlieb;2019;Non-fiction;Selv-hjelp;Engelsk;4.38;"Psykologi; selv-hjelp";Ikke lest;0;;Nei
+23;Never Split the Difference: Negotiating as if Your Life Depended on It;Chris Voss;2016;Non-fiction;Selv-hjelp;Engelsk;4.36;"Business; selv-hjelp; psykologi";Ikke lest;0;;Nei
+24;The Psychology of Money: Timeless Lessons on Wealth, Greed and Happiness;Morgan Housel ;2020;Non-fiction;Psykologi;Engelsk;4.31;"Økonomi; psykologi; selv-hjelp";Ikke lest;0;;Nei
+25;Stories That Stick: How Storytelling Can Captivate Customers, Influence Audiences and Transform Your Business;Kindra Hall;2019;Non-fiction;Selv-hjelp;Engelsk;4.25;"Story-telling; psykologi; lederskap";Ikke lest;0;;Nei
+26;The Book You Wish Your Parents Had Read (And Your Children Will Be Glad You Did);Philippa Perry;2019;Non-fiction;Selv-hjelp;Engelsk;4.11;"Psykologi; oppdragelse; selv-hjelp";Ikke lest;0;;Nei
+27;Origin;Dan Brown;2017;Fiction;Thriller;Engelsk;3.89;"Thriller; mysterie";Lest;2;;Robert Langdon #5
+28;You Deserve Each Other;Sarah Hogle;2020;Fiction;Romantisk;Engelsk;3.91;Romantisk;Ikke lest;0;;You Deserve Each Other #1
+29;The da Vinci Code;Dan Brown;2003;Fiction;Thriller;Engelsk;3.92;"Thriller; mysterie";Lest;3;;Robert Langdon #2
+30;The Complete Short Stories of Ernest Hemingway;Ernest Hemingway;1987;Fiction;Noveller;Engelsk;4.29;"Noveller; klassiker; USA";Ikke lest;0;;The Wedding Date #1
+31;The Wedding Date;Jasmine Guillory;2018;Fiction;Romantisk;Engelsk;3.58;Romantisk;Ikke lest;0;;Nei
+32;A Moveable Feast;Ernest Hemingway;1964;Non-fiction;Klassiker;Engelsk;4.02;"Klassiker; Memoar; biografi; fransk; ";Ikke lest;0;;Nei
+33;Angels & Demons;Dan Brown;2000;Fiction;Thriller;Engelsk;3.94;"Thriller; mysterie";Lest;3;;Robert Langdon #1
+34;Boyfriend Material;Alexis Hall;2020;Fiction;Romantisk;Engelsk;4.01;"Romantisk; LGBT; Adult";Ikke lest;0;;London Calling #1
+35;The Rosie Project: A Novel;Graeme Simsion;2013;Fiction;Romantisk;Engelsk;4.02;"Romantisk; humor";Ikke lest;0;;Don Tillman #1
+36;The Hating Game;Sally Thorne;2016;Fiction;Romantisk;Engelsk;3.89;Romantisk;Ikke lest;0;;Nei
+37;The Rosie Effect;Graeme Simsion;2014;Fiction;Romantisk;Engelsk;3.63;"Romantisk; humor";Ikke lest;0;;Don Tillman #2
+38;Atomic Habits: An Easy and Proven Way to Build Good Habits & Break Bad Ones;James Clear;2018;Non-fiction;Selv-hjelp;Engelsk;4.35;"Psykologi; selv-hjelp; produktivitet";Ikke lest;0;;Nei
+39;Inferno;Dan Brown;2013;Fiction;Thriller;Engelsk;3.89;"Thriller; mysterie";Lest;2;;Robert Langdon #4
+40;Snømannen;Jo Nesbø;2007;Fiction;Krim;Norsk;4.02;"Krim; thriller; mysterie";Lest;4;;Harry Hole #7
+41;Offer 2117;Jussi Adler-Olsen;2019;Fiction;Krim;Norsk;3.99;"Krim; thriller; mysterie";Ikke lest;0;;Avdeling Q #8
+42;Nudge;"Richard H. Thaler; Cass R Sunstein";2008;Non-fiction;Selv-hjelp;Engelsk;3.84;"Psykologi; selv-hjelp; valg";Ikke lest;0;;Nei
+43;August;Knut Hamsun;1930;Fiction;Klassiker;Norsk;4.14;Klassiker;Ikke lest;0;;August-trilogien #2
+44;Innsirkling;Carl Frode Tiller;2007;Fiction;Roman;Norsk (nynorsk);3.86;"Roman; nynorsk";Ikke lest;0;;Innsirkling #1
+45;Kjempenes Fall;Ken Follett;2011;Fiction;Historisk Fiksjon;Norsk;4.32;"Historisk fiksjon; krig; historie";Lest;4;;Århundretrilogien #1
+46;Store Hvite Løgner;Lliane Moriarty;2014;Fiction;Thriller;Norsk;4.31;"Thriller; mysterie";Ikke lest;0;;Nei
+47;Skjult Agenda;Emelie Schepp;2016;Fiction;Krim;Norsk;3.81;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Jana Berzelius #3: 
+48;Vinter over Verden;Ken Follett;2012;Fiction;Historisk Fiksjon;Norsk;4.37;"Historisk fiksjon; krig; historie";Lest;4;;Århundretrilogien #2
+49;I all evighet;Ken Follett;2007;Fiction;Historisk Fiksjon;Norsk;4.31;"Historisk fiksjon; middelalder; historie";Lest;4;;Kingsbridge #2
+50;Stormenes tid;Ken Follett;1989;Fiction;Historisk Fiksjon;Norsk;4.4;"Historisk fiksjon; middelalder; historie";Lest;4;;Kingsbridge #1
+51;Varsleren;John Grisham;2016;Fiction;Krim;Norsk;3.96;"Krim; thriller; mysterie; USA";Ikke lest;0;;Varsleren #1
+52;Nullpunkt;"Jørn Lier Horst; Thomas Enger";2018;Fiction;Krim;Norsk;4.06;"Krim; thriller; mysterie";Lest;3;;Alexander Blix & Emma Ramm
+53;Intriger og begjær;P.D. James;1989;Fiction;Krim;Norsk;3.96;"Krim; thriller; mysterie; England";Ikke lest;0;;Adam Dalgliesh #8
+54;Den Frosne Kvinnen;Jon Michelet;2001;Fiction;Krim;Norsk;2.96;"Krim; thriller; mysterie";Ikke lest;0;;Vilhelm Thygesen #9
+55;Vågespill;Ann Rosman;2016;Fiction;Krim;Norsk;3.37;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Karin Adler #6
+56;Vinterland;"Kim Faber; Janni Pedersen";2019;Fiction;Krim;Norsk;3.75;"Krim; thriller; mysterie; Danmark";Ikke lest;0;;Martin Juncker & Signe Kristiansen #1
+57;Offer uten Ansikt;Stefan Ahnhem;2014;Fiction;Krim;Norsk;3.97;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Fabian Risk #1
+58;Sov du vesle Spire;"Cilla Børjlind; Rolf Børjlind";2016;Fiction;Krim;Norsk;4.09;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Rønning og Stilton #4
+59;Selfies;Jussi Adler-Olsen;2017;Fiction;Krim;Norsk;3.92;"Krim; thriller; mysterie; Danmark";Ikke lest;0;;Avdeling Q #7
+60;Havana Storm;"Clive Cussler; Dirk Cussler";2014;Fiction;Thriller;Norsk;4.06;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Dirk Pitt #23
+61;Kaninjegeren;Lars Kepler;2016;Fiction;Krim;Norsk;4.05;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Joona Linna #6
+62;Dødens Øye;Clive Cussler;2015;Fiction;Thriller;Norsk;4.24;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Oregon Files #10
+63;Under Angrep;"Clive Cussler; Robin Burcell";2016;Fiction;Thriller;Norsk;4.03;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Fargo Adventures #8
+64;Hun Takket Gudene ;Jussi Adler-Olsen;2002;Fiction;Krim;Norsk;3.31;"Krim; thriller; mysterie; Danmark";Ikke lest;0;;Nei
+65;Sak 1569;Jørn Lier Horst;2020;Fiction;Krim;Norsk;4.08;"Krim; thriller; mysterie";Ikke lest;0;;William Wisting #15
+66;Pappas Gutt;Emelie Schepp;2017;Fiction;Krim;Norsk;3.81;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Jana Berzelius #4
+67;Svarthuset;Peter May;2009;Fiction;Krim;Norsk;4.08;"Krim; thriller; mysterie; UK";Ikke lest;0;;Lewis Trilogi #1
+68;Tusenfryd;Kristina Ohlsson ;2010;Fiction;Krim;Norsk;3.79;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Fredrika Bergman og Alex Recht #2
+69;Slagside;"Jørn Lier Horst; Thomas Enger";2020;Fiction;Krim;Norsk;4.1;"Krim; thriller; mysterie";Lest;3;;Alexander Blix & Emma Ramm #3
+70;Den tredje stemmen;Cilla Børjlind ;2013;Fiction;Krim;Norsk;3.91;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Rønning og Stilton #2: 
+71;Kvinnen i Vinduet;A.J. Finn;2018;Fiction;Thriller;Norsk;3.95;"Thriller; mysterie";Ikke lest;0;;Nei
+72;Stolpesnø;Marit Reiersgård;2012;Fiction;Krim;Norsk;3.61;"Krim; thriller; mysterie";Ikke lest;0;;Jacobsen & Røed #1
+73;Spøkelsesskipet ;Clive Cussler;2014;Fiction;Thriller;Norsk;4.14;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Numa Files #12
+74;Røykteppe;"Jørn Lier Horst; Thomas Enger";2019;Fiction;Krim;Norsk;3.98;"Krim; thriller; mysterie";Lest;3;;Alexander Blix & Emma Ramm #2
+75;Skinnet Bedrar ;Agnes Lovise Matre;2017;Fiction;Krim;Norsk;3.83;"Krim; thriller; mysterie";Ikke lest;0;;Bengt Alvsaker #1
+76;Porto Francos Voktere;Ann Rosman;2011;Fiction;Krim;Norsk;3.69;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Karin Adler #3
+77;Som tiden går;Mary Higgins Clark;2016;Fiction;Thriller;Norsk;3.79;"Thriller; mysterie; UK";Ikke lest;0;;Alvirah & Willy #10
+78;Papirgutten;Kristina Ohlsson ;2013;Fiction;Krim;Norsk;4.04;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Fredrika Bergman og Alex Recht #5
+79;Størst av Alt;Malin Persson Giolito;2016;Fiction;Krim;Norsk;3.75;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Nei
+80;Merket for livet;Emelie Schepp;2013;Fiction;Krim;Norsk;3.56;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Jana Berzelius #1
+81;Sjelekisten;Emelie Schepp;2013;Fiction;Krim;Norsk;3.56;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Karin Adler #2
+82;Møt meg i Paradis;Heine Bakkeid;2018;Fiction;Krim;Norsk;3.69;"Krim; thriller; mysterie";Ikke lest;0;;Thorkild Aske #2
+83;Siste Offer;Lisa Gardner;2012;Fiction;Krim;Norsk;4.2;"Krim; thriller; mysterie; USA";Ikke lest;0;;Detective DD Warren #6
+84;Den Evige Ilden;Ken Follett;2017;Fiction;Historisk Fiksjon;Norsk;4.26;"Historisk fiksjon; middelalder; historie";Ikke lest;0;;Kingsbridge #3
+85;Operasjon Poseidon;Clive Cussler ;2012;Fiction;Thriller;Norsk;4.02;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Dirk Pitt #22
+86;Lotus Blues;Kristina Ohlsson ;2014;Fiction;Krim;Norsk;3.68;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Martin Brenner #1
+87;Paradisoffer;Kristina Ohlsson ;2012;Fiction;Krim;Norsk;3.74;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Fredrika Bergman og Alex Recht #4
+88;Arvingen;John Grisham;1999;Fiction;Thriller;Norsk;3.9;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Nei
+89;Øynene Som Ser;Mary Higgins Clark;2018;Fiction;Thriller;Norsk;3.76;"Thriller; mysterie; UK";Ikke lest;0;;Nei
+90;Englevaktene;Kristina Ohlsson ;2011;Fiction;Krim;Norsk;3.92;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Fredrika Bergman og Alex Recht #3
+91;Mios Blues;Kristina Ohlsson ;2015;Fiction;Krim;Norsk;3.76;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Martin Brenner #2
+92;Nabovarsel;Unni Lindell;2020;Fiction;Krim;Norsk;3.64;"Krim; thriller; mysterie";Ikke lest;0;;Nei
+93;Hvite Spor;Emelie Schepp;2015;Fiction;Krim;Norsk;3.68;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Jana Berzelius #2
+94;Keiserens Hevn;Clive Cussler, Boyd Morrison;2016;Fiction;Thriller;Norsk;4.29;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Oregon Files #11
+95;Fjellgraven;"Michael Hjorth; Hans Rosenfeldt";2012;Fiction;Krim;Norsk;3.85;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Sebastian Bergman #3
+96;Melodien Lever Videre;Mary Higgins Clark;2015;Fiction;Thriller;Norsk;3.66;"Thriller; mysterie; UK";Ikke lest;0;;Nei
+97;Gjensynet;Knut Faldbakken;2016;Fiction;Krim;Norsk;3.1;"Krim; thriller; mysterie";Ikke lest;0;;Jonfinn Valmann #9
+98;Den Stumme Jenta;"Michael Hjorth; Hans Rosenfeldt";2014;Fiction;Krim;Norsk;4.15;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Sebastian Bergman #4
+99;Ikke bestått;Michael Hjorth;2015;Fiction;Krim;Norsk;4.19;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Sebastian Bergman #5
+100;Hvit som Snø;Jon Michelet;1980;Fiction;Krim;Norsk;3.28;"Krim; thriller; mysterie";Ikke lest;0;;Vilhelm Thygesen #4
+101;Whiteout;Ken Follett;2004;Fiction;Thriller;Norsk;3.65;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Nei
+102;Fryktløs;Lisa Gardner;2014;Fiction;Krim;Norsk;4.14;"Krim; thriller; mysterie; USA";Ikke lest;0;;Detective DD Warren #8
+103;Dronen;Unni Lindell;2018;Fiction;Krim;Norsk;3.59;"Krim; thriller; mysterie";Ikke lest;0;;Marian Dahle #2
+104;Mordet på Woldnes;Jon Michelet;2008;Fiction;Krim;Norsk;3.38;"Krim; thriller; mysterie";Ikke lest;0;;Vilhelm Thygesen #11
+105;Illvilje;Jørn Lier Horst;2019;Fiction;Krim;Norsk;4.07;"Krim; thriller; mysterie";Ikke lest;0;;William Wisting #14
+106;Krokodillevokteren;Katrine Engberg;2016;Fiction;Krim;Norsk;3.59;"Krim; thriller; mysterie; Danmark";Ikke lest;0;;Kørner og Werner #1: 
+107;Business;Terje Bjøranger;2019;Fiction;Krim;Norsk;3.51;"Krim; thriller; mysterie";Ikke lest;0;;Charlie Robertson #3
+108;Broderskapet;John Grisham;2000;Fiction;Thriller;Norsk;3.77;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Nei
+109;Blodrød Himmel;Clive Cussler;2010;Fiction;Thriller;Norsk;4.01;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Dirk Pitt #21
+110;Barcode;Terje Bjøranger;2017;Fiction;Krim;Norsk;3.62;"Krim; thriller; mysterie";Ikke lest;0;;Charlie Robertson #2
+111;Askepott;Kristina Ohlsson ;2009;Fiction;Krim;Norsk;3.79;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Fredrika Bergman og Alex Recht #1
+112;Den perfekte familie;Lisa Gardner;2018;Fiction;Krim;Norsk;3.98;"Krim; thriller; mysterie; USA";Ikke lest;0;;Detective DD Warren #10
+113;Drømmer Dreper Ikke;Mary Higgins Clark;2013;Fiction;Thriller;Norsk;3.77;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Nei
+114;Fyrmesterens Datter;Ann Rosman;2009;Fiction;Krim;Norsk;3.42;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Karin Adler #1
+115;Det innerste rommet ;Jørn Lier Horst;2018;Fiction;Krim;Norsk;3.99;"Krim; thriller; mysterie";Ikke lest;0;;William Wisting #13
+116;Arr;Jørn Lier Horst;2022;Fiction;Krim;Norsk;4.13;"Krim; thriller; mysterie";Lest;3;;Alexander Blix & Emma Ramm #4
+117;Døden i Baugen;Jon Michelet;2010;Fiction;Krim;Norsk;2.87;"Krim; thriller; mysterie";Ikke lest;0;;Vilhelm Thygesen #12
+118;Aldri mer Alene;Mary Higgins Clark;2017;Fiction;Thriller;Norsk;3.68;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Alvirah & Willy #11
+119;Blodmåne;Katrine Engberg;2017;Fiction;Krim;Norsk;3.83;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Kørner og Werner #2
+120;Det drukner ei som henges skal;Jon Michelet;1975;Fiction;Krim;Norsk;2.87;"Krim; thriller; mysterie";Ikke lest;0;;Vilhelm Thygesen #1
+121;De Forsvunne;Caroline Eriksson;2015;Fiction;Krim;Norsk;3.25;"Krim; thriller; mysterie; Sverige";Ikke lest;0;;Nei
+122;Askepottmordet;"Mary Higgins Clark; Alafair Burke";2014;Fiction;Thriller;Norsk;3.91;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Under Suspicion #2
+123;Bruden som forsvant;Mary Higgins Clark;2015;Fiction;Thriller;Norsk;4.04;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Under Suspicion #3
+124;Advokaten;John Grisham;2015;Fiction;Thriller;Norsk;3.79;"Thriller; eventyr; mysterie; USA";Ikke lest;0;;Rogue Lawyer #1
+125;The Lion, the Witch and the Wardrobe ;C.S Lewis;1950;Fiction;Fantasy;Engelsk;4.24;"Fantasy; Ungdom; Eventyr";Lest;4;;Narnia #2
+126;Gone with the Wind;Margaret Mitchell;1936;Fiction;Klassiker;Engelsk;4.31;"Klassiker; Historisk fiksjon; Romantisk";Ikke lest;0;;Nei
+127;Don Quixote;Miguel de Cervantes;1605;Fiction;Klassiker;Engelsk;3.9;"Klassiker; Spansk";Ikke lest;0;;Nei
+128;Never Let Me Go;Kazuo Ishiguro;2005;Fiction;Science Fiction;Engelsk;3.85;"Science Fiction; Dystopia; Romantisk; samtid";Ikke lest;0;;Nei
+129;Robinson Crusoe;Daniel Defoe;1719;Fiction;Klassiker;Engelsk;3.68;"Klassiker; eventyr";Ikke lest;0;;Robinson Crusoe #1
+130;Kvinnen i Isdalen;Dennis Zacher Aske;2018;Non-fiction;Krim;Norsk;3.72;"Krim; thriller; mysterie; True-crime";Ikke lest;0;;Nei
+131;4 3 2 1 ;Paul Auster;2017;Fiction;Historisk Fiksjon;Norsk;3.96;"Historisk fiksjon; USA";Ikke lest;0;;Nei
+132;Etterlyst;Child Lee;2014;Fiction;Thriller;Norsk;4.05;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Jack Reacher #17
+133;Niels Klims reise til den underjordiske reise;Ludvig Holberg;1741;Fiction;Klassiker;Norsk;3.53;"Klassiker; Science fiction; Fantasy";Ikke lest;0;;Nei
+134;Me Before You;Jojo Moyes;2012;Fiction;Romantisk;Engelsk;4.26;"Roman; romantisk; ";Ikke lest;0;;Me Before You #1
+135;Prost Gotvins Geometri;Gert Nygårdshaug;1998;Fiction;Roman;Norsk;3.81;Roman;Ikke lest;0;;Nei
+136;Fargeløse Tsukuru Tazaki og hans Pilegrimsår;Haruki Murakami;2013;Fiction;Roman;Norsk;3.87;"Roman; dannelsesroman; Japan; samtid";Ikke lest;0;;Nei
+137;Drapet på kommendanten;Haruki Murakami;2017;Fiction;Roman;Norsk;3.94;"Roman; dannelsesroman; Japan; samtid";Ikke lest;0;;Drapet på kommendanten #2
+138;Drømmenes land;Vidar Sundstøl;2008;Fiction;Krim;Norsk;3.41;"Krim; thriller; mysterie";Ikke lest;0;;Minnesota Trilogy #1
+139;Ravnene;Vidar Sundstøl;2011;Fiction;Krim;Norsk;3.46;"Krim; thriller; mysterie";Ikke lest;0;;Minnesota Trilogy #3
+140;Slåttekar i himmelen;Edvard Hoem;2014;Fiction;Historisk Fiksjon;Norsk;4.2;"Historie; Familie";Ikke lest;0;;Familien fra Rekneslia #1
+141;De Døde;Vidar Sundstøl;2011;Fiction;Krim;Norsk;2.93;"Krim; thriller; mysterie";Ikke lest;0;;Minnesota Trilogy #2
+142;Maybe Now;Colleen Hoover;2018;Fiction;Romantisk;Engelsk;3.88;"Romantisk; samtid";Ikke lest;0;;Maybe #2
+143;Verity;Colleen Hoover;2018;Fiction;Romantisk;Engelsk;4.32;"Romantisk; thriller; mysterie; samtid";Ikke lest;0;;Nei
+144;Ut av ensomheten;Benedict Wells;2016;Fiction;Roman;Norsk;4.37;"Roman; romantisk; samtid; Tyskland";Ikke lest;0;;Nei
+145;November Nine;Colleen Hoover;2015;Fiction;Romantisk;Engelsk;4.13;"Romantisk; samtid";Ikke lest;0;;Nei
+146;Finding Perfect;Colleen Hoover;2019;Fiction;Romantisk;Engelsk;4.14;"Romantisk; samtid";Ikke lest;0;;Hopeless #3.5
+147;The Ballad of Songbirds and Snakes;Suzanne Collins;2020;Fiction;Fantasy;Engelsk;3.96;"Fantasy; Ungdom; Eventyr; Dystopi";Ikke lest;0;;The Hunger Games #0
+148;Den Guddommelige Komedie;Dante Alighieri;1320;Fiction;Klassiker;Engelsk;4.08;"Klassiker; poesi; høylitteratur";Ikke lest;0;;Nei
+149;Sammensvergelse: Hvordan Russland hjalp Donald Trump inn i det Hvite Hus;Luke Harding;2017;Non-fiction;Historie;Norsk;4.17;"Politikk; Historie; Journalisme";Ikke lest;0;;Nei
+150;Nattskolen;Karl Ove Knausgård;2023;Fiction;Roman;Norsk;4.37;"Roman; romantisk; samtid; Tyskland";Ikke lest;0;;Morgenstjernen #4
+151;Den Lykkelige Alder;Sigrid Undset;1908;Non-fiction;Klassiker;Norsk;3.72;"Klassiker; memoar; historie";Ikke lest;0;;Nei
+152;Troy;Stephen Fry;2020;Non-fiction;Historie;Engelsk;4.35;"Historie; mytologi";Lest;4;;Stephen Fry's Great Mythology #3
+153;Killers of the Flower Moon: The Osage Murders and the birth of the FBI;David Grann;2017;Non-fiction;Historie;Engelsk;4.14;"Historie; True-Crime";Ikke lest;0;;Nei
+154;The Discoverers: A History of Mans Search to Know His World and Himself;Daniel J Boorstin;1983;Non-fiction;Historie;Engelsk;4.12;"Historie; Forskning; Filosofi";Ikke lest;0;;Nei
+155;The Diary of a Young Girl;Anne Frank;1947;Non-fiction;Klassiker;Engelsk;4.19;"Klassiker; Memoar; biografi";Ikke lest;0;;Nei
+156;Bad Blood: Secret and Lies in a Silicon Valley Startup;John Carreyrou;2023;Non-fiction;Business;Engelsk;4.41;"Business; krim";Lest;4;;Nei
+157;The Intelligent Investor;Benjamin Graham;1949;Non-fiction;Business;Engelsk;4.25;"Business; finans; økonomi";Ikke lest;0;;Nei
+158;Of Mice and Men;John Steinbeck;1937;Fiction;Klassiker;Engelsk;3.89;"Klassiker; Historisk fiksjon; Romantisk";Ikke lest;0;;Nei
+159;In Cold Blood;Truman Capote;1959;Non-fiction;Klassiker;Engelsk;4.09;"Klassiker; True-crime; mysterie";Ikke lest;0;;Nei
+160;Fahrenheit 451;Ray Bradbury;1953;Fiction;Klassiker;Engelsk;3.96;"Klassiker; Science fiction; dystopia";Lest;3;;Nei
+161;World Without End;Ken Follett;2007;Fiction;Historisk Fiksjon;Engelsk;4.31;"Historisk fiksjon; middelalder; historie";Lest;4;;Kingsbridge #2
+162;The Lions of Al Rassan;Guy Gavriel Kay;1995;Fiction;Historisk Fiksjon;Engelsk;4.3;"Historisk fiksjon; fantasy; epic";Lest;4;;Nei
+163;Lessons in Chemistry;Bonnie Garmus;2022;Fiction;Historisk Fiksjon;Engelsk;4.29;"Historisk fiksjon; romantisk";Ikke lest;0;;Nei
+164;The Book Thief;Markus Zusak;2005;Fiction;Historisk Fiksjon;Engelsk;4.39;"Historisk fiksjon; krig; historie";Ikke lest;0;;Nei
+165;The Road;Cormac McCarthy;2006;Fiction;Dystopisk;Engelsk;3.99;"Dystopisk; science fiction; post-apokalypse";Ikke lest;0;;Nei
+166;Dagbok fra Guantanamo;Mohamedou Ould Slahi;2015;Non-fiction;Historie;Norsk;4.09;"Memoar; politikk; historie";Ikke lest;0;;Nei
+167;Spermageddon;Niels Christian Geelmuyden;2019;Non-fiction;Forskning;Norsk;3.44;"Forskning; medisin; helse";Ikke lest;0;;Nei
+168;Politi;Jo Nesbø;2013;Fiction;Krim;Norsk;4.23;"Krim; thriller; mysterie";Lest;4;;Harry Hole #10
+169;Panserhjerte;Jo Nesbø;2009;Fiction;Krim;Norsk;4.1;"Krim; thriller; mysterie";Ikke lest;0;;Harry Hole #8
+170;Kabalmysteriet;Jostein Gaarder;2011;Fiction;Filosofi;Norsk;4.17;"Filosofi; fantasy; mysterie";Ikke lest;0;;Nei
+171;Meningen med Rus;Øystein Skjælaaen;2019;Non-fiction;Forskning;Norsk;4.23;"Forskning; helse; psykologi";Ikke lest;0;;Nei
+172;Beatles;Lars Saabye Christensen;1984;Fiction;Roman;Norsk;4.25;"Roman; dannelsesroman; samtid";Lest;4;;Beatles trilogien #1
+173;Kakerlakkene;Jo Nesbø;1998;Fiction;Krim;Norsk;3.73;"Krim; thriller; mysterie";Ikke lest;0;;Harry Hole #2
+174;Frelseren;Jo Nesbø;2005;Fiction;Krim;Norsk;4.09;"Krim; thriller; mysterie";Ikke lest;0;;Harry Hole #6
+175;Tjenerinnens beretning;Margaret Atwood;1985;Fiction;Dystopisk;Norsk;4.14;"Dystopisk; science fiction; feminist";Ikke lest;0;;The Handmaid's tale #1:
+176;Harry Potter og Barnets Forbannelse;"J.K. Rowling; Jack Thorne; John Tiffany";2016;Fiction;Fantasy;Norsk;3.49;"Fantasy; Ungdom; Eventyr; Teater";Ikke lest;0;;Nei
+177;Fabeldyr og hvor de er å finne: Det opprinnelige filmmanuset;J.K. Rowling;2016;Fiction;Fantasy;Norsk;4.17;"Fantasy; Ungdom; Eventyr; Teater";Ikke lest;0;;Nei
+178;Den Som Ser;Herbjørg Wassmo;2017;Fiction;Roman;Norsk;4.16;"Roman; feminist; familie";Ikke lest;0;;Dina #4
+179;Przewalskis Hest;Maja Lunde;2019;Fiction;Dystopisk;Norsk;3.86;"Dystopisk; Historisk Fiksjon; Science Fiction";Ikke lest;0;;Klimakvartetten #3
+180;Compis;Hasse Hope;2018;Fiction;Science Fiction;Norsk;3.45;"Science Fiction; ungdom";Ikke lest;0;;Nei
+181;Et Dukkehjem;Henrik Ibsen;1879;Fiction;Klassiker;Norsk;3.76;"Teater; Drama; Banebrytende";Lest;3;;Nei
+182;Fagre Nye Verden;Aldous Huxley;1932;Fiction;Dystopisk;Norsk;3.99;"Dystopisk; klassiker; Science fiction";Lest;4;;Nei
+183;A little Luck;Claudio Piñeiro;2015;Fiction;Roman;Engelsk;4.29;"Roman; samtid; Spania; thriller";Ikke lest;0;;Nei
+184;Irène;Pierre Lemaitre;2006;Fiction;Thriller;Engelsk;3.94;"Thriller; krim; mysterie; Frankrike";Ikke lest;0;;Camilla Verhoeven #1
+185;Alex;Pierre Lemaitre;2011;Fiction;Thriller;Engelsk;4.09;"Thriller; krim; mysterie; Frankrike";Ikke lest;0;;Camilla Verhoeven #2
+186;Sønnen;Jo Nesbø;2014;Fiction;Krim;Norsk;4.08;"Krim; thriller; mysterie";Ikke lest;0;;Nei
+187;En Hemmelig Affære;Lee Child;2011;Fiction;Thriller;Norsk;4.15;"Thriller; eventyr; mysterie; UK";Ikke lest;0;;Jack Reacher #16
+188;Blod på Snø;Jo Nesbø;2014;Fiction;Krim;Norsk;3.55;"Krim; thriller; mysterie";Ikke lest;0;;Blod på Snø #1
+189;En snikskytters dagbok;Vassili Zaitsev;1956;Non-fiction;Historie;Norsk;4.08;"Historie; krig";Ikke lest;0;;Nei
+190;Hodejegerne;Jo Nesbø;2008;Fiction;Krim;Norsk;3.8;"Krim; thriller; mysterie";Ikke lest;0;;Nei
+191;Harry Potter: Den Komplette Samlingen ;"J.K. Rowling; Torstein Bugge Høverstad";2007;Fiction;Fantasy;Norsk;4.74;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter
+192;Dress Code: The Naked Truth About Fashion;Mari Grinde Arntzen;2014;Non-fiction;Historie;Engelsk;3.72;"Historie; mote";Ikke lest;0;;Nei
+193;Marekors;Jo Nesbø;2003;Fiction;Krim;Norsk;4.06;"Krim; thriller; mysterie";Ikke lest;0;;Harry Hole #5
+194;Rødstrupe;Jo Nesbø;2000;Fiction;Krim;Norsk;3.94;"Krim; thriller; mysterie";Lest;4;;Harry Hole #3
+195;Blå;Maja Lunde;2017;Fiction;Dystopisk;Norsk;3.69;"Dystopisk; Historisk Fiksjon; Science Fiction";Ikke lest;0;;Klimakvartetten #2
+196;Over Horisonten;Jojo Moyes;2019;Fiction;Historisk Fiksjon;Norsk;4.29;"Historisk fiksjon; romantisk";Ikke lest;0;;Nei
+197;Tørst;Jo Nesbø;2017;Fiction;Krim;Norsk;4.18;"Krim; thriller; mysterie";Ikke lest;0;;Harry Hole #11
+198;Bienes Historie;Maja Lunde;2015;Fiction;Dystopisk;Norsk;3.81;"Dystopisk; Historisk Fiksjon; Science Fiction";Lest;2;;Klimakvartetten #1
+199;Maj;Lars Saabye Christensen;2018;Fiction;Roman;Norsk;4.4;"Roman; dannelsesroman; historisk fiksjon";Ikke lest;0;;Byens Spor #2
+200;Gileads Døtre;Margaret Atwood;2019;Fiction;Dystopisk;Norsk;4.19;"Dystopisk; science fiction; feminist";Ikke lest;0;;The Handmaid's tale #2
+201;Skyggebogen;Lars Saabye Christensen;2019;Fiction;Roman;Norsk;4.31;"Roman; dannelsesroman; historisk fiksjon";Ikke lest;0;;Byens Spor #3
+202;Eventyr;Regine Normann;1925;Fiction;Eventyr;Norsk;Ingen rating;"Eventyr; Nord-Norge";Ikke lest;0;;Nei
+203;Menn uten Kvinner;Haruki Murakami;2014;Fiction;Noveller;Norsk;3.75;"Noveller; klassiker; Japan";Ikke lest;0;;Nei
+204;Drapet på kommendanten;Haruki Murakami;2017;Fiction;Roman;Norsk;4.06;"Roman; dannelsesroman; Japan; samtid";Ikke lest;0;;Drapet på kommendanten #1
+205;Rebecca;Daphne du Maurier;1938;Fiction;Klassiker;Engelsk;4.24;"Klassiker; Gotisk; Historisk fiksjon; Romantisk";Ikke lest;0;;Nei
+206;Blood Meridian, or the Evening Redness in the West;Cormac McCarthy;1985;Fiction;Historisk Fiksjon;Engelsk;4.16;"Historisk fiksjon; western; klassiker";Ikke lest;0;;Nei
+207;Tatovøren fra Auschwitz;Heather Morris;2018;Fiction;Historisk Fiksjon;Norsk;4.31;"Historisk fiksjon; krig; historie";Lest;3;;Tatovøren fra Auschwitz #1
+208;Project Hail Mary;Andy Weir;2021;Fiction;Science Fiction;Engelsk;4.51;"Science Fiction; Fantasy; Thriller";Lest;4;;Nei
+209;Thinking, Fast and Slow;Daniel Kahneman;2011;Non-fiction;Selv-hjelp;Engelsk;4.18;"Psykologi; business; selv-hjelp";Ikke lest;0;;Nei
+210;How to be a Stoic: Using Ancient Philosophy to Live a Modern Life ;Massimo Pigliucci;2017;Non-fiction;Filosofi;Engelsk;4.05;"Filosofi; selv-hjelp; psykologi";Lest;3;;Nei
+211;The Man Who Mistook His Wife for a Hat;Oliver Sacks;1985;Non-fiction;Psykologi;Engelsk;4.06;"Psykologi; helse; hjernen";Lest;3;;Nei
+212;The True Believer: Thoughts on the Nature of Mass Movements;Eric Hoffer;1951;Non-fiction;Filosofi;Engelsk;4.21;"Filosofi; psykologi; politikk";Ikke lest;0;;Nei
+213;Sofies Verden;Jostein Gaarder;1991;Fiction;Filosofi;Norsk;3.96;"Filosofi; klassiker; fantasy";Lest;4;;Nei
+214;The Republic ;"Plato; Desmond Lee";401;Non-fiction;Filosofi;Engelsk;3.96;"Filosofi; Klassiker; Politikk";Lest;5;;Plato's Dialogues #4
+215;The Bogleheads' Guide to Investing;"Taylor Larimore; Mel Lindauer; Michael LeBouef";2006;Non-fiction;Selv-hjelp;Engelsk;4.29;"Finans; selv-hjelp; økonomi";Ikke lest;0;;Nei
+216;Forbidden Knowledge: 101 Things No One Should Know How to Do;Owen Brooks;2019;Non-fiction;Humor;Engelsk;2.67;Humor;Ikke lest;0;;Nei
+217;Krigerens hjemkomst;Jon Michelet;2018;Fiction;Historisk Fiksjon;Norsk;4.37;"Historisk fiksjon; krig; historie";Ikke lest;4;;En Sjøens Helt #6
+218;Spionenes Arv;John le Carré;2017;Fiction;Thriller;Norsk;3.88;"Thriller; mysterie; spion";Ikke lest;0;;George Smiley #9
+219;Skogsmatrosen;Jon Michelet;2012;Fiction;Historisk Fiksjon;Norsk;4.14;"Historisk fiksjon; krig; historie";Ikke lest;4;;En Sjøens Helt #1
+220;Når det mørkner;Jørn Lier Horst;2016;Fiction;Krim;Norsk;3.9;"Krim; thriller; mysterie";Lest;3;;William Wisting #11
+221;Skytteren;Jon Michelet;2013;Fiction;Historisk Fiksjon;Norsk;4.19;"Historisk fiksjon; krig; historie";Lest;4;;En Sjøens Helt #2
+222;Gullgutten;Jon Michelet;2014;Fiction;Historisk Fiksjon;Norsk;4.15;"Historisk fiksjon; krig; historie";Lest;4;;En Sjøens Helt #3
+223;Blodige strender;Jon Michelet;2015;Fiction;Historisk Fiksjon;Norsk;3.96;"Historisk fiksjon; krig; historie";Lest;4;;En Sjøens Helt #4
+224;Brennende Skip;Jon Michelet;2016;Fiction;Historisk Fiksjon;Norsk;4.27;"Historisk fiksjon; krig; historie";Lest;4;;En Sjøens Helt #5
+225;Catch-22;Joseph Heller;1961;Fiction;Klassiker;Engelsk;3.99;"Historisk fiksjon; klassiker; krig; humor";Ikke lest;0;;Nei
+226;Ender's Game;Orson Scott Card;1985;Fiction;Science Fiction;Engelsk;4.31;"Science Fiction; Fantasy; Dystopia";Lest;4;;Ender's Saga #1
+227;The Little Prince;Antoine de Saint-Exupéry;1943;Fiction;Klassiker;Engelsk;4.33;"Klassiker; Fantasy; Barnebok; Frankrike";Lest;5;;Nei
+228;Eleanor Oliphant is Completely Fine;Gail Honeyman;2017;Fiction;Roman;Engelsk;4.24;"Roman; samtid; helse";Ikke lest;0;;Nei
+229;I, Robot;Isaac Asimov;1950;Fiction;Science Fiction;Engelsk;4.21;"Science Fiction; noveller; klassiker; fantasy";Lest;3;;Nei
+230;Stoner ;John Williams;1965;Fiction;Historisk Fiksjon;Engelsk;4.34;"Historisk fiksjon; klassiker; USA";Ikke lest;0;;Nei
+231;Ronja Røverdatter;Astrid Lindgren;1981;Fiction;Klassiker;Norsk;4.31;"Klassiker; Fantasy; Barnebok; Sverige";Ikke lest;0;;Nei
+232;To Kill a Mockingbird;Harper Lee;1960;Fiction;Klassiker;Engelsk;4.26;"Klassiker; historisk fiksjon; ";Lest;5;;Nei
+233;Mythos;Stephen Fry;2017;Non-fiction;Historie;Engelsk;4.26;"Historie; mytologi";Lest;4;;Stephen Fry's Great Mythology #1
+234;The Master and Margarita;Mikhail Bulgakov;1967;Fiction;Klassiker;Engelsk;4.29;"Fantasy; Romantisk; Satire; Russland";Ikke lest;0;;Nei
+235;1Q84;Haruki Murakami;2009;Fiction;Fantasy;Engelsk;3.94;"Fantasy; Science Fiction; samtid; Japan;";Ikke lest;0;;Nei
+236;Factfulness: Ten Reason's we are Wrong about the World - and why Things are Better than you Think;Hans Rosling;2018;Non-fiction;Forskning;Engelsk;4.36;"Forskning; Psykologi; sosiologi; Økonomi; ";Lest;4;;Nei
+237;Norwegian Wood;Haruki Murakami;1987;Fiction;Roman;Engelsk;4.01;"Roman; dannelsesroman; Japan; samtid";Lest;4;;Nei
+238;The Wind-Up Bird Chronicle;Haruki Murakami;1994;Fiction;Roman;Engelsk;4.15;"Roman; Fantasy; Japansk";Ikke lest;0;;Nei
+239;From Russia with Love;Ian Fleming;1957;Fiction;Thriller;Engelsk;3.91;"Thriller; spion;  UK";Lest;4;;James Bond
+240;A Column of Fire;Ken Follett;2017;Fiction;Historisk Fiksjon;Engelsk;4.26;"Historisk fiksjon; krig; historie";Lest;4;;Kingsbridge #3
+241;The Armour of Light;Ken Follett;2023;Fiction;Historisk Fiksjon;Engelsk;4.24;"Historisk fiksjon; middelalder; historie";Ikke lest;0;;Kingsbridge #4
+242;Casino Royale;Ian Fleming;1953;Fiction;Thriller;Engelsk;3.74;"Thriller; spion;  UK";Lest;4;;James Bond
+243;Maths in Minutes ;Paul Glendinning;2012;Non-fiction;Forskning;Engelsk;3.58;"Forskning; matematikk;";Ikke lest;0;;Nei
+244;New York 2140;Kim Stanley Robinson;2017;Fiction;Dystopisk;Engelsk;3.59;"Dystopisk; science fiction; post-apokalypse";Ikke lest;0;;Nei
+245;London Falling;Paul Cornell;2012;Fiction;Fantasy;Engelsk;3.78;"Fantasy; mysterie;horror";Ikke lest;0;;Shadow Police #1
+246;The Slight Edge Turning Simple Disciplines Into Massive Success;Jeff Olson;2022;Non-fiction;Selv-hjelp;Engelsk;4.41;"Psykologi; business; selv-hjelp";Ikke lest;0;;Nei
+247;Harry Potter and the Methods of Rationality;Eliezer Yudkowsky;2015;Fiction;Fantasy;Engelsk;4.39;"Fantasy; Ungdom; Eventyr";Ikke lest;0;;Nei
+248;Camino Island;John Grisham;2017;Fiction;Thriller;Engelsk;3.81;"Thriller; mysterie";Lest;3;;Camino Island #1
+249;House of Leaves;Mark Z. Danielewski;2000;Fiction;Horror;Engelsk;4.09;"Horror; Fantasy; Thriller";Ikke lest;0;;Nei
+250;Hundraåringen som klev ut genom fönstret och försvann;Jonas Jonasson;2009;Fiction;Roman;Svensk;3.82;"Roman; samtid; humor";Lest;4;;Nei
+251;Harry Potter and the Goblet of Fire;J.K. Rowling;2000;Fiction;Fantasy;Engelsk;4.57;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #4
+252;Harry Potter and the Half-Blood Prince;J.K. Rowling;2005;Fiction;Fantasy;Engelsk;4.58;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #6
+253;Harry Potter and the Order of the Phoenix;J.K. Rowling;2003;Fiction;Fantasy;Engelsk;4.5;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #5
+254;Harry Potter and the Philosopher's Stone;J.K. Rowling;1997;Fiction;Fantasy;Engelsk;4.47;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #1
+255;Harry Potter and the Deathly Hallows;J.K. Rowling;2007;Fiction;Fantasy;Engelsk;4.62;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #7
+256;Harry Potter and the Prisoner of Azkaban;J.K. Rowling;1999;Fiction;Fantasy;Engelsk;4.58;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #3
+257;Harry Potter and the Chamber of Secrets;J.K. Rowling;1998;Fiction;Fantasy;Engelsk;4.43;"Fantasy; Ungdom; Eventyr";Lest;5;;Harry Potter #2
+258;The Girl on the Train;Paula Hawkins;2015;Fiction;Thriller;Engelsk;3.96;"Thriller; mysterie; UK";Lest;4;;Nei
+259;Healing Back Pain - The Mind-Body Connection;John E. Sarno;1982;Non-fiction;Helse;Engelsk;4.06;"Helse; Psykologi; Selv-hjelp";Lest;4;;Nei
+260;Pride and Prejudice;Jane Austen;1813;Fiction;Klassiker;Engelsk;4.29;"Klassiker; Romanse; Litteratur";Lest;4;;Nei
+261;The Picture of Dorian Gray;Oscar Wilde;1890;Fiction;Klassiker;Engelsk;4.13;"Klassiker; fantasy; horror";Lest;5;;Nei
+262;In Our Time;Ernest Hemingway;1925;Fiction;Klassiker;Engelsk;3.74;"Klassiker; noveller; litteratur";Lest;4;;Nei
+263;Heimskringla;Snorre Sturlasøn;1230;Non-fiction;Klassiker;Norsk;4.18;"Klassiker; historie; mytologi";Ikke lest;0;;Nei
+264;Norske Folkeeventyr;"Peter Christian Asbjørnsen; Jørgen Moe";1852;Fiction;Klassiker;Norsk;;"Klassiker; Eventyr; Norge";Ikke lest;0;;Nei
+265;Skatten på Sjørøverøya;Robert Louis Stevenson;1882;Fiction;Klassiker;Norsk;3.85;"Klassiker; Eventyr; Skottland";Lest;4;;Nei
+266;Overvåket: Edward Snowden, NSA og overvåkningsstaten;Glenn Greenwald;2014;Non-fiction;Historie;Norsk;4.07;"Historie; politikk; teknologi; journalist";Ikke lest;0;;Nei
+267;Jane Eyre;Charlotte Bronte;1847;Fiction;Klassiker;Engelsk;4.15;"Klassiker; historisk fiksjon, romantisk";Ikke lest;0;;Nei
+268;Hjernen er Stjernen;Kaja Nordengen;2016;Non-fiction;Forskning;Norsk;3.86;"Forskning; helse; psykologi";Ikke lest;0;;Nei
+269;Alderdommen;Simone de Beauvoir;1972;Non-fiction;Filosofi;Norsk;3.94;"Filosofi; feminisme; historie";Ikke lest;0;;Nei
+270;To søstre;Åsne Seierstad;2016;Non-fiction;Historie;Norsk;4.21;"Historie; religion; krig";Ikke lest;0;;Nei
+271;En av Oss: En fortelling om Norge;Åsne Seierstad;2013;Non-fiction;Historie;Norsk;4.42;"Historie; politikk; religion";Ikke lest;0;;Nei
+272;Arven etter Arn;Jan Guillou;2001;Fiction;Historisk Fiksjon;Norsk;3.77;"Historisk fiksjon; fantasy; epic";Ikke lest;0;;The Crusades Trilogy #4
+273;Systemfeil;Edward Snowden;2019;Non-fiction;Biografi;Norsk;4.30;"Biografi; politikk; historie; teknologi";Ikke lest;0;;Nei
+274;Sa jeg noe feil? - Hvorfor samtaler skjærer seg, og hvordan vi kan bli bedre til å snakke sammen;Aksel Inge Sindig;2023;Non-fiction;Psykologi;Norsk;4.56;"Psykologi; filosofi";Ikke lest;0;;Nei
+275;Innleid og underbetalt;James Bloodworth;2018;Non-fiction;Politikk;Norsk;4.05;"Politikk; Økonomi; sosiologi";Ikke lest;0;;Nei
+276;På inngrodde stier;Knut Hamsun;1949;Non-fiction;Klassiker;Norsk;3.73;"Klassiker; Memoar; biografi";Ikke lest;0;;Nei
+277;The Prince and the Pauper;Mark Twain;1881;Fiction;Klassiker;Norsk;3.87;"Klassiker; Historisk fiksjon";Ikke lest;0;;Nei
+278;Peer Gynt;Henrik Ibsen;1867;Fiction;Klassiker;Norsk;3.71;"Klassiker; teater; drama";Ikke lest;0;;Nei
+279;En Folkefiende;Henrik Ibsen;1882;Fiction;Klassiker;Norsk;3.86;"Klassiker; teater; drama";Ikke lest;0;;Nei
+280;Hedda Gabler;Henrik Ibsen;1890;Fiction;Klassiker;Norsk;3.82;"Klassiker; teater; drama";Ikke lest;0;;Nei
+281;Hunden fra Baskerville;Arthur Conan Doyle;1902;Fiction;Krim;Norsk;4.13;"Krim; thriller; mysterie";Ikke lest;0;;Sherlock Holmes #5
+282;Gjengangere;Henrik Ibsen;1881;Fiction;Klassiker;Norsk;3.81;"Klassiker; teater; drama";Ikke lest;0;;Nei
+283;The Suicide Club;Robert Louis Stevenson;1878;Fiction;Klassiker;Norsk;3.41;"Klassiker; noveller; litteratur";Ikke lest;0;;Nei
+284;Erasmus Montanus ;Ludvig Holberg;1723;Fiction;Klassiker;Norsk;3.40;"Klassiker; teater; drama";Ikke lest;0;;Nei
+285;Jeppe på Bjerget;Ludvig Holberg;1722;Fiction;Klassiker;Norsk;3.26;"Klassiker; teater; drama";Ikke lest;0;;Nei
+286;For Whom the Bell Tolls;Ernest Hemingway;1940;Fiction;Klassiker;Engelsk;3.98;"Klassiker; historisk fiksjon; krig";Ikke lest;0;;Nei
+287;The Remains of the Day;Kazuo Ishiguro;1989;Fiction;Historisk Fiksjon;Engelsk;4.14;"Historisk fiksjon; ";Lest;4;;Nei
+288;Evil Under the Sun;Agatha Christie;1941;Fiction;Krim;Engelsk;3.98;"Krim; thriller; mysterie";Lest;4;;Hercule Poirot #24
+289;Five Little Pigs;Agatha Christie;1942;Fiction;Krim;Engelsk;4.03;"Krim; thriller; mysterie";Lest;4;;Hercule Poirot #25
+290;4 Essential Keys to Effective Communication in Love, Life, Work--Anywhere!;Bento C. Leal III;2017;Non-fiction;Selv-hjelp;Engelsk;3.79;"Psykologi; kommunikasjon";Lest;3;;Nei
+291;Tender is the Night;F. Scott Fitzgerald;1934;Fiction;Klassiker;Engelsk;3.78;"Klassiker; Romanse; Litteratur";Lest;5;;Nei
+292;Dark Matter;Blake Crouch;2016;Fiction;Thriller;Engelsk;4.14;"Thriller; science-fiction";Lest;4;;Nei
+293;The Death of Ivan Ilych;Leo Tolstoy;1886;Fiction;Klassiker;Engelsk;4.13;"Klassiker; russisk; filosofi";Ikke lest;0;;Nei
+294;Grapes of Wrath;John Steinbeck;1939;Fiction;Klassiker;Engelsk;4.01;"Klassiker; Historisk fiksjon";Lest;5;;Nei
+295;The Pillars of the Earth ;Ken Follett;1989;Fiction;Historisk Fiksjon;Engelsk;4.34;"Historisk fiksjon; fantasy; epic";Lest;4;;Nei
+296;Treasure Island;Robert Louis Stevenson;1882;Fiction;Klassiker;Norsk;3.85;"Klassiker; Eventyr; Skottland";Lest;4;;Nei
+297;Our Mathematical Universe: My Quest for the Ultimate Nature of Reality;Max Tegmark;2012;Non-fiction;Forskning;Engelsk;4.19;"Forskning; teknologi; matematikk";Ikke lest;0;;Nei
+298;Discourses and Selected Writings;Epictetus;108;Non-fiction;Filosofi;Engelsk;4.42;"Filosofi; selv-hjelp; psykologi";Ikke lest;0;;Nei
+299;Dubliners;James Joyce;1914;Fiction;Klassiker;Engelsk;3.84;"Noveller; klassiker; Irland";Ikke lest;0;;Nei
+300;Great Expectations;Charles Dickens;1860;Fiction;Klassiker;Engelsk;3.79;"Klassiker; historisk fiksjon, romantisk";Lest;5;;Nei
+301;The Sun Also Rises;Ernest Hemingway;1926;Fiction;Klassiker;Engelsk;3.79;"Klassiker; noveller; litteratur";Lest;5;;Nei
+302;How to Win Friends and Influence People;Dale Carnegie;1936;Non-fiction;Selv-hjelp;Engelsk;4.22;"Psykologi; selv-hjelp; kommunikasjon";Lest;5;;Nei
+303;The Art of War;Sun Tzu;401;Non-fiction;Filosofi;Engelsk;3.95;"Filosofi; kultur;krig; kina";Ikke lest;0;;Nei
+304;The Spy Who Came in from the Cold;John le Carré;1963;Fiction;Thriller;Engelsk;4.08;"Thriller; mysterie; UK";Lest;5;;Nei
+305;Twenty Thousand Leagues under the Sea;Jules Verne;1869;Fiction;Klassiker;Engelsk;3.89;"Klassiker; Eventyr; Science fiction";Lest;4;;Captain Nemo #2
+306;Around the World in Eighty Days ;Jules Verne;1872;Fiction;Klassiker;Engelsk;3.94;"Klassiker; Science fiction; Eventyr";Lest;5;;Nei
+307;Crime and Punishment;Fyodor Dostoevsky;1866;Fiction;Klassiker;Engelsk;4.27;"Klassiker; russisk; litteratur";Lest;5;;Nei
+308;The Lord of the Rings;J.R.R Tolkien ;1954;Fiction;Fantasy;Engelsk;4.53;"Fantasy; Klassiker; eventyr";Lest;5;;The Lord of the Rings
+309;Arsène Lupin: The Collection;Maurice Leblanc;1907;Fiction;Klassiker;Engelsk;3.81;"Mysterie; krim";Ikke lest;0;;Arsène Lupin
+310;The Sailor who Fell from Grace With the Sea;Yukio Mishima;1963;Fiction;Roman;Engelsk;3.85;"Roman; Japansk";Lest;4;;Nei
+311;The Old Man and the Sea;Ernest Hemingway;1952;Fiction;Klassiker;Engelsk;3.80;"Klassiker; litteratur";Lest;5;;Nei
+312;Kafka on the Shore;Haruki Murakami;2002;Fiction;Roman;Engelsk;4.13;"Roman; dannelsesroman; Japan; samtid";Lest;4;;Nei
+313;Man's search for Meaning;Viktor E. Frankl;1946;Non-fiction;Psykologi;Engelsk;4.37;"Psykologi; selv-hjelp; filosofi";Lest;4;;Nei
+314;Meditations;Marcus Aurelius;180;Non-fiction;Filosofi;Engelsk;4.28;"Filosofi; Klassiker; psykologi; selv-hjelp";Lest;5;;Nei
+315;Flowers for Algernon;Daniel Keyes;1966;Fiction;Klassiker;Engelsk;4.22;"Klassiker; Science fiction; psykologi";Lest;5;;Nei
+316;The Symposium;Plato;381;Non-fiction;Filosofi;Engelsk;4.09;"Filosofi; klassiker";Lest;5;;Nei
+317;Charles Dickens: The Complete Novels;Charles Dickens;1986;Fiction;Klassiker;Engelsk;4.29;"Klassiker; Historisk fiksjon;";Ikke lest;0;;Nei
+318;A Christmas Carol;Charles Dickens;1843;Fiction;Klassiker;Engelsk;4.08;"Klassiker; jul; Historisk Fiksjon";Lest;5;;Nei
+319;The Great Hunt;Robert Jordan;1990;Fiction;Fantasy;Engelsk;4.26;"Fantasy; eventyr";Lest;4;;The Wheel of Time #2
+320;The Eye of the World;Robert Jordan;1990;Fiction;Fantasy;Engelsk;4.19;"Fantasy; eventyr";Lest;4;;The Wheel of Time #1
+321;Slaughterhouse-Five;Kurt Vonnegut;1969;Fiction;Klassiker;Engelsk;4.10;"Science Fiction; War; Historisk Fiksjon";Lest;4;;Nei
+322;The Catcher in The Rye;J.D. Salinger;1951;Fiction;Klassiker;Engelsk;3.80;"Klassiker; Science fiction; ungdom";Lest;3;;Nei
+323;Lord of the Flies;Wiiliam Golding;1954;Fiction;Klassiker;Engelsk;3.70;"Klassiker; dystopisk; ungdom";Lest;4;;Nei
+324;English Fairy Tales;Joseph Jacobs;1918;Fiction;Klassiker;Engelsk;3.80;"Klassiker; eventyr; noveller";Ikke lest;0;;Nei
+325;The Mysterious Island;Jules Verne;1874;Fiction;Klassiker;Engelsk;4.13;"Klassiker; eventyr; fantasy";;4;;Captain Nemo #3
+326;David Copperfield;Charles Dickens;1850;Fiction;Klassiker;Engelsk;4.03;"Klassiker; Historisk fiksjon";Lest;5;;Nei
+327;Les Misérables;Victor Hugo;1862;Fiction;Klassiker;Engelsk;4.20;"Klassiker; Historisk Fiksjon; Frankrike";Ikke lest;0;;Nei
+328;A Tale of Two Cities;Charles Dickens;1859;Fiction;Klassiker;Engelsk;3.87;"Klassiker; Historisk fiksjon; ";Lest;5;;Nei
+329;The Kite Runner;Khaled Hosseini;2003;Fiction;Historisk Fiksjon;Engelsk;4.35;"Historisk Fiksjon; samtid";Lest;4;;Nei
+330;Hogfather;Terry Pratchett;1996;Fiction;Fantasy;Engelsk;4.26;"Fantasy; humor; jul";Ikke lest;0;;Nei
+331;Lolita;Vladimir Nabokov;1955;Fiction;Klassiker;Engelsk;3.88;"Klassiker; russisk; litteratur";Lest;3;;Nei
+332;Ulysses;James Joyce;1922;Fiction;Klassiker;Engelsk;3.75;"Klassiker; litteratur; irland";Ikke lest;0;;Nei
+333;The Great Gatsby;F. Scott Fitzgerald;1925;Fiction;Klassiker;Engelsk;3.93;"Klassiker; romanse; ungdom";Lest;4;;Nei
+334;Death on the Nile;Agatha Christie;1937;Fiction;Krim;Engelsk;4.12;"Krim; thriller; mysterie";Lest;4;;Hercule Poirot #18
+335;And Then There Were None;Agatha Christie;1939;Fiction;Krim;Engelsk;4.28;"Krim; thriller; mysterie";Lest;5;;Nei
+336;Drømmefangeren;Unni Lindell;1999;Fiction;Krim;Norsk;3.55;"Krim; thriller; mysterie";Ikke lest;0;;Cato Isaksen #2
