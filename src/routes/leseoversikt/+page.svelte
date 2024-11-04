@@ -1,5 +1,5 @@
 <script>
-    import StatisticView from '../../lib/components/STATISTICS/statisticView.svelte';
+    import StatisticView from '$lib/components/STATISTICS/statisticView.svelte';
 
     export let data;
     const { books } = data;

@@ -1,6 +1,6 @@
 // src/routes/api/update-book/+server.js
 
-import { query } from '../../../lib/utils/mysql';
+import { query } from '$lib/utils/mysql';
 import { json } from '@sveltejs/kit';
 
 export async function POST({ request }) {
