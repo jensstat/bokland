@@ -1,8 +1,8 @@
 <!-- src/routes/submitbooks/+page.svelte -->
 <script>
     import { isEditing } from '../../stores/editMode';
-    import TableView from '../../lib/components/SUBMITBOOKS/tableView.svelte';
-    import EditableTableView from '../../lib/components/SUBMITBOOKS/editableTableView.svelte';
+    import TableView from '$lib/components/SUBMITBOOKS/tableView.svelte';
+    import EditableTableView from '$lib/components/SUBMITBOOKS/editableTableView.svelte';
     
     export let data; 
     const { books } = data;

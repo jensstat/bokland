@@ -1,5 +1,5 @@
 <script>
-    import Hero from '../lib/components/UI/hero.svelte';
+    import Hero from '$lib/components/UI/hero.svelte';
     export let data;
 
     // Destructure favoriteBooks from Data
