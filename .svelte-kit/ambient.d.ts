@@ -5,9 +5,9 @@
 /// <reference types="@sveltejs/kit" />
 
 /**
- * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
+ * Environment variables [loaded by Vite](https://vitejs.dev/guide/env-and-mode.html#env-files) from `.env` files and `process.env`. Like [`$env/dynamic/private`](https://svelte.dev/docs/kit/$env-dynamic-private), this module cannot be imported into client-side code. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://svelte.dev/docs/kit/configuration#env) (if configured).
  * 
- * _Unlike_ [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
+ * _Unlike_ [`$env/dynamic/private`](https://svelte.dev/docs/kit/$env-dynamic-private), the values exported from this module are statically injected into your bundle at build time, enabling optimisations like dead code elimination.
  * 
  * ```ts
  * import { API_KEY } from '$env/static/private';
@@ -27,11 +27,14 @@
  */
 declare module '$env/static/private' {
 	export const VITE_DATABASE_URL: string;
+	export const VERCEL_GIT_COMMIT_AUTHOR_NAME: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
+	export const VERCEL_GIT_COMMIT_REF: string;
 	export const TERM: string;
 	export const SHELL: string;
+	export const VERCEL_GIT_COMMIT_AUTHOR_LOGIN: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
@@ -42,16 +45,23 @@ declare module '$env/static/private' {
 	export const COLOR: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
+	export const VERCEL_GIT_REPO_OWNER: string;
+	export const VERCEL_GIT_COMMIT_SHA: string;
 	export const ZSH: string;
+	export const VERCEL_GIT_PULL_REQUEST_ID: string;
+	export const VERCEL_PROJECT_SETTINGS_NODE_VERSION: string;
 	export const NVM_DIR: string;
 	export const USER: string;
 	export const LS_COLORS: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const SSH_AUTH_SOCK: string;
+	export const VERCEL_URL: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
+	export const VERCEL_GIT_PROVIDER: string;
 	export const PAGER: string;
+	export const VERCEL_GIT_PREVIOUS_SHA: string;
 	export const LSCOLORS: string;
 	export const PATH: string;
 	export const npm_package_json: string;
@@ -59,6 +69,7 @@ declare module '$env/static/private' {
 	export const _: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
+	export const NOW_BUILDER: string;
 	export const USER_ZDOTDIR: string;
 	export const __CFBundleIdentifier: string;
 	export const npm_command: string;
@@ -70,6 +81,7 @@ declare module '$env/static/private' {
 	export const npm_config_npm_version: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const XPC_FLAGS: string;
+	export const VERCEL: string;
 	export const npm_config_node_gyp: string;
 	export const npm_package_version: string;
 	export const XPC_SERVICE_NAME: string;
@@ -78,24 +90,33 @@ declare module '$env/static/private' {
 	export const HOME: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const HOMEBREW_PREFIX: string;
+	export const NX_DAEMON: string;
 	export const npm_config_cache: string;
 	export const LESS: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
+	export const VERCEL_GIT_REPO_ID: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
+	export const TURBO_REMOTE_ONLY: string;
+	export const TURBO_RUN_SUMMARY: string;
 	export const npm_config_user_agent: string;
+	export const VERCEL_ENV: string;
+	export const TURBO_DOWNLOAD_LOCAL_ENABLED: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
+	export const VERCEL_GIT_COMMIT_MESSAGE: string;
+	export const __VERCEL_BUILD_RUNNING: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
+	export const VERCEL_GIT_REPO_SLUG: string;
 	export const COLORTERM: string;
 	export const NODE_ENV: string;
 }
 
 /**
- * Similar to [`$env/static/private`](https://kit.svelte.dev/docs/modules#$env-static-private), except that it only includes environment variables that begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
+ * Similar to [`$env/static/private`](https://svelte.dev/docs/kit/$env-static-private), except that it only includes environment variables that begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
  * 
  * Values are replaced statically at build time.
  * 
@@ -108,7 +129,7 @@ declare module '$env/static/public' {
 }
 
 /**
- * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/main/packages/adapter-node) (or running [`vite preview`](https://kit.svelte.dev/docs/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://kit.svelte.dev/docs/configuration#env) (if configured).
+ * This module provides access to runtime environment variables, as defined by the platform you're running on. For example if you're using [`adapter-node`](https://github.com/sveltejs/kit/tree/main/packages/adapter-node) (or running [`vite preview`](https://svelte.dev/docs/kit/cli)), this is equivalent to `process.env`. This module only includes variables that _do not_ begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) _and do_ start with [`config.kit.env.privatePrefix`](https://svelte.dev/docs/kit/configuration#env) (if configured).
  * 
  * This module cannot be imported into client-side code.
  * 
@@ -124,11 +145,14 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		VITE_DATABASE_URL: string;
+		VERCEL_GIT_COMMIT_AUTHOR_NAME: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
+		VERCEL_GIT_COMMIT_REF: string;
 		TERM: string;
 		SHELL: string;
+		VERCEL_GIT_COMMIT_AUTHOR_LOGIN: string;
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
@@ -139,16 +163,23 @@ declare module '$env/dynamic/private' {
 		COLOR: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
+		VERCEL_GIT_REPO_OWNER: string;
+		VERCEL_GIT_COMMIT_SHA: string;
 		ZSH: string;
+		VERCEL_GIT_PULL_REQUEST_ID: string;
+		VERCEL_PROJECT_SETTINGS_NODE_VERSION: string;
 		NVM_DIR: string;
 		USER: string;
 		LS_COLORS: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		SSH_AUTH_SOCK: string;
+		VERCEL_URL: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
+		VERCEL_GIT_PROVIDER: string;
 		PAGER: string;
+		VERCEL_GIT_PREVIOUS_SHA: string;
 		LSCOLORS: string;
 		PATH: string;
 		npm_package_json: string;
@@ -156,6 +187,7 @@ declare module '$env/dynamic/private' {
 		_: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
+		NOW_BUILDER: string;
 		USER_ZDOTDIR: string;
 		__CFBundleIdentifier: string;
 		npm_command: string;
@@ -167,6 +199,7 @@ declare module '$env/dynamic/private' {
 		npm_config_npm_version: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		XPC_FLAGS: string;
+		VERCEL: string;
 		npm_config_node_gyp: string;
 		npm_package_version: string;
 		XPC_SERVICE_NAME: string;
@@ -175,18 +208,27 @@ declare module '$env/dynamic/private' {
 		HOME: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		HOMEBREW_PREFIX: string;
+		NX_DAEMON: string;
 		npm_config_cache: string;
 		LESS: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
+		VERCEL_GIT_REPO_ID: string;
 		VSCODE_GIT_IPC_HANDLE: string;
+		TURBO_REMOTE_ONLY: string;
+		TURBO_RUN_SUMMARY: string;
 		npm_config_user_agent: string;
+		VERCEL_ENV: string;
+		TURBO_DOWNLOAD_LOCAL_ENABLED: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
+		VERCEL_GIT_COMMIT_MESSAGE: string;
+		__VERCEL_BUILD_RUNNING: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
+		VERCEL_GIT_REPO_SLUG: string;
 		COLORTERM: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
@@ -195,7 +237,7 @@ declare module '$env/dynamic/private' {
 }
 
 /**
- * Similar to [`$env/dynamic/private`](https://kit.svelte.dev/docs/modules#$env-dynamic-private), but only includes variables that begin with [`config.kit.env.publicPrefix`](https://kit.svelte.dev/docs/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
+ * Similar to [`$env/dynamic/private`](https://svelte.dev/docs/kit/$env-dynamic-private), but only includes variables that begin with [`config.kit.env.publicPrefix`](https://svelte.dev/docs/kit/configuration#env) (which defaults to `PUBLIC_`), and can therefore safely be exposed to client-side code.
  * 
  * Note that public dynamic environment variables must all be sent from the server to the client, causing larger network requests — when possible, use `$env/static/public` instead.
  * 
