@@ -9,4 +9,5 @@
 <!-- Navbar rendered in layout.svelte-->
 <!-- Hero Content -->
 <Hero {favoriteBooks} {readBooksPercentage} />
+<h1>Hello</h1>
 <!-- Footer rendered in layout.svelte-->
