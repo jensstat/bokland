@@ -38,6 +38,12 @@
                     dark:text-white lg:dark:hover:text-red-300 
                     ">Leseoversikt</a>
                 </li>
+                <li class="p-4">
+                    <a href="/books" class="text-gray-900 hover:text-blue-700 
+                    lg:p-0 
+                    dark:text-white lg:dark:hover:text-red-300 
+                    ">Logg inn</a>
+                </li>
             </ul>
         </div>
         
