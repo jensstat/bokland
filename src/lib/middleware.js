@@ -1,7 +1,7 @@
 // src/lib/middleware.js
 import jwt from 'jsonwebtoken';
 
-const secretKey = process.env.VITE_JWT_SECRET; // Load the secret from environment variables
+const secretKey = process.env.JWT_SECRET; // Load the secret from environment variables
 
 export function verifyToken(token) {
     if (!token) {

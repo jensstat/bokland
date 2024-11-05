@@ -27,7 +27,7 @@
  */
 declare module '$env/static/private' {
 	export const VITE_DATABASE_URL: string;
-	export const VITE_JWT_SECRET: string;
+	export const JWT_SECRET: string;
 	export const NVM_INC: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
@@ -96,6 +96,7 @@ declare module '$env/static/private' {
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
 	export const NODE_ENV: string;
+	export const VITE_JWT_SECRET: string;
 }
 
 /**
@@ -128,7 +129,7 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		VITE_DATABASE_URL: string;
-		VITE_JWT_SECRET: string;
+		JWT_SECRET: string;
 		NVM_INC: string;
 		TERM_PROGRAM: string;
 		NODE: string;
@@ -197,6 +198,7 @@ declare module '$env/dynamic/private' {
 		npm_config_prefix: string;
 		COLORTERM: string;
 		NODE_ENV: string;
+		VITE_JWT_SECRET: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

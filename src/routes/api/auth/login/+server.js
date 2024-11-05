@@ -2,8 +2,8 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { query } from '$lib/utils/mysql';
 
-const secretKey = process.env.VITE_JWT_SECRET;
-console.log('JWT Secret Key:', process.env.VITE_JWT_SECRET);
+const secretKey = process.env.JWT_SECRET;
+console.log('JWT Secret Key:', process.env.JWT_SECRET);
 
 
 export async function POST({ request }) {
