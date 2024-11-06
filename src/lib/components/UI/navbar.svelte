@@ -30,19 +30,13 @@
                     <a href="/submitBooks" class="text-gray-900 hover:text-blue-700 
                     lg:p-0 
                     dark:text-white lg:dark:hover:text-red-300 
-                    ">Legge inn bøker</a>
+                    ">Bokoversikt</a>
                 </li>
                 <li class="p-4">
                     <a href="/leseoversikt" class="text-gray-900 hover:text-blue-700 
                     lg:p-0 
                     dark:text-white lg:dark:hover:text-red-300 
-                    ">Leseoversikt</a>
-                </li>
-                <li class="p-4">
-                    <a href="/books" class="text-gray-900 hover:text-blue-700 
-                    lg:p-0 
-                    dark:text-white lg:dark:hover:text-red-300 
-                    ">Logg inn</a>
+                    ">Lesestatistikk</a>
                 </li>
             </ul>
         </div>
