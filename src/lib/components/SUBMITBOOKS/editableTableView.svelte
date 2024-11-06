@@ -1,86 +1,76 @@
 <script>
-    export let data;
-    export let formData;
-    export let editing;
+    import AddBookForm from "./AddBookForm.svelte";
 
-    const { books } = data;
+    export let data;  // `data` contains the books array
+    let showAddBookForm = false;
 
-    // Variable to hold the initial value when an input is focused
-    let originalValue = null;
+    // Toggle to show/hide the add book form
+    function toggleAddBookForm() {
+        showAddBookForm = !showAddBookForm;
+    }
 
-    // Function to handle edit and send updated data to the server
-    async function handleEdit(id, field, newValue) {
-        console.log("Blur event triggered. Attempting to edit:", { id, field, newValue, originalValue });
+    // Handler for adding a book to the `books` list
+    function handleAddBook(event) {
+        const { newBook } = event.detail;
+        data.books = [...data.books, newBook];  // Append the new book to `data.books`
+    }
 
-        // Compare the original value with the new value
-        if (newValue === originalValue) {
-            console.log("No change detected, request not sent.");
-            return; // Exit if no change detected
-        }
-
-        // Check token before making the request
+    // Delete function using book ID
+    async function deleteBook(id) {
         const token = localStorage.getItem('token');
-        if (!token) {
-            console.error("No token found. User might need to log in.");
-            return;
-        }
+        const response = await fetch('/api/delete-book', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
+            },
+            body: JSON.stringify({ id })
+        });
 
-        try {
-            console.log("Sending fetch request to update book...");
-            const response = await fetch('/api/update-book', {
-                method: 'POST',
-                headers: { 
-                    'Content-Type': 'application/json', 
-                    'Authorization': `Bearer ${token}`
-                },
-                body: JSON.stringify({ id, field, value: newValue })
-            });
-
-            const result = await response.json();
-            if (response.ok && result.success) {
-                console.log("Update successful:", result);
-                // Update the local book data to reflect the change
-                const book = books.find(b => b.id === id);
-                if (book) book[field] = newValue;
-            } else {
-                console.error("Failed to update:", result.error);
-                if (response.status === 401 || response.status === 403) {
-                    console.error("Authorization error, clearing token.");
-                    localStorage.removeItem('token');
-                    alert("Session expired. Please log in again.");
-                }
-            }
-        } catch (error) {
-            console.error("Error updating book:", error);
+        if (response.ok) {
+            data.books = data.books.filter(book => book.id !== id);  // Remove the book locally
+        } else {
+            const errorData = await response.json();
+            console.error('Failed to delete book:', errorData.error || 'Unknown error');
         }
     }
 </script>
 
+<!-- Add Book Toggle and Form -->
+<div class="flex justify-end mb-4">
+    <button on:click={toggleAddBookForm} class="bg-green-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-green-600 transition">
+        {showAddBookForm ? 'Cancel' : 'Add Book'}
+    </button>
+</div>
+
+{#if showAddBookForm}
+    <AddBookForm on:addBook={handleAddBook} />
+{/if}
+
+<!-- Book Table -->
 <table class="w-full border">
     <thead>
         <tr>
-            {#each Object.keys(formData) as key}
-                <th class="border">{key.charAt(0).toUpperCase() + key.slice(1)}</th>
+            <!-- Dynamically generate table headers based on formData keys -->
+            {#each Object.keys(data.books[0] || {}) as key}
+                <th class="border p-2">{key.charAt(0).toUpperCase() + key.slice(1)}</th>
             {/each}
+            <th class="border p-2">Actions</th>
         </tr>
     </thead>
     <tbody>
-        {#each books as book}
+        {#each data.books as book}
             <tr>
-                {#each Object.keys(formData) as key}
+                {#each Object.keys(book) as key}
                     <td class="p-2 border">
-                        <input
-                            type="text"
-                            bind:value={book[key]}
-                            on:focus={(e) => {
-                                originalValue = e.target.value; // Store the original value on focus
-                                console.log("Original value set:", originalValue);
-                            }}
-                            on:blur={(e) => handleEdit(book.id, key, e.target.value)}
-                            class="w-full"
-                        />
+                        <input type="text" bind:value={book[key]} class="w-full border p-1" />
                     </td>
                 {/each}
+                <td class="p-2 border">
+                    <button on:click={() => deleteBook(book.id)} class="bg-red-500 text-white px-2 py-1 rounded-md hover:bg-red-600 transition">
+                        Delete
+                    </button>
+                </td>
             </tr>
         {/each}
     </tbody>
