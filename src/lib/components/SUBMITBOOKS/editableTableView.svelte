@@ -1,5 +1,5 @@
 <script>
-    import AddBookForm from "./AddBookForm.svelte";
+    import AddBookForm from "./addBookForm.svelte";
 
     export let data;  // `data` contains the books array
     let showAddBookForm = false;
