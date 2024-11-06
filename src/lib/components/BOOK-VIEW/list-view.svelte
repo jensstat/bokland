@@ -46,13 +46,6 @@
                     <!-- Book Year -->
                     <p class="text-sm text-gray-500">{book.year}</p>
                 </div>
-                <div>
-                    <!-- Book Author -->
-                    <p class="text-sm text-gray-600">{book.goodreads.toFixed(2)}</p>
-                    
-                    <!-- Book Year -->
-                    <p class="text-sm text-gray-500">{book.genre}</p>
-                </div>
             </div>
             
         </div>

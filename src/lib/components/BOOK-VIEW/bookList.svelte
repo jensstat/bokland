@@ -73,7 +73,7 @@
 
 <!-- Grid/List View -->
 {#if isGridView}
-    <div class="grid-view">
+    <div class="grid-view flex-grow">
         <GridView {sortedBooks} />
     </div>
 {:else}

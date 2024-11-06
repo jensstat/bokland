@@ -7,7 +7,12 @@
 
     // Pagination state
     let currentPage = 1;
-    let booksPerPage = 24;
+    let booksPerPage = 16;
+
+    // Reset currentPage to 1 whenever sortedBooks changes
+    $: if (sortedBooks) {
+        currentPage = 1; 
+    }
 
     $: totalPages = Math.ceil(sortedBooks.length / booksPerPage); 
     $: paginatedBooks = sortedBooks.slice((currentPage - 1) * booksPerPage, currentPage * booksPerPage);

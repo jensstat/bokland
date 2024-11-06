@@ -42,19 +42,19 @@
     }
 </script>
 
-<form on:submit={handleAddBook} class="space-y-4 bg-white p-6 rounded-lg shadow-md">
+<form on:submit={handleAddBook} class="space-y-4 bg-white p-4 lg:p-6 rounded-lg w-full sm:w-3/4 shadow-md">
     <h2 class="text-lg font-bold">Add New Book</h2>
-    <input type="text" bind:value={title} placeholder="Title" required class="input" />
-    <input type="text" bind:value={author} placeholder="Author" required class="input" />
-    <input type="number" bind:value={year} placeholder="Year" class="input" />
-    <input type="text" bind:value={type} placeholder="Type" class="input"/>
-    <input type="text" bind:value={genre} placeholder="Genre" class="input"/>
-    <input type="text" bind:value={language} placeholder="Language" class="input"/>
-    <input type="number" bind:value={goodreads} placeholder="Goodreads Rating" class="input"/>
-    <input type="text" bind:value={tags} placeholder="Tags" class="input"/>
-    <input type="text" bind:value={hasRead} placeholder="Has Read Status" class="input"/>
-    <input type="number" bind:value={jensrating} placeholder="Jens Rating" class="input"/>
-    <input type="text" bind:value={series} placeholder="Series" class="input"/>
+    <input type="text" bind:value={title} placeholder="Title" required class="input w-full" />
+    <input type="text" bind:value={author} placeholder="Author" required class="input w-full" />
+    <input type="number" bind:value={year} placeholder="Year" class="input w-full" />
+    <input type="text" bind:value={type} placeholder="Type" class="input w-full"/>
+    <input type="text" bind:value={genre} placeholder="Genre" class="input w-full"/>
+    <input type="text" bind:value={language} placeholder="Language" class="input w-full"/>
+    <input type="number" bind:value={goodreads} placeholder="Goodreads Rating" class="input w-full"/>
+    <input type="text" bind:value={tags} placeholder="Tags" class="input w-full"/>
+    <input type="text" bind:value={hasRead} placeholder="Has Read Status" class="input w-full"/>
+    <input type="number" bind:value={jensrating} placeholder="Jens Rating" class="input w-full"/>
+    <input type="text" bind:value={series} placeholder="Series" class="input w-full"/>
 
     {#if errorMessage}
         <p class="text-red-500">{errorMessage}</p>
@@ -62,5 +62,8 @@
     {#if successMessage}
         <p class="text-green-500">{successMessage}</p>
     {/if}
-    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Add Book</button>
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md w-full sm:w-auto">
+        Add Book
+    </button>
 </form>
+

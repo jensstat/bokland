@@ -72,14 +72,14 @@
     </button>
 
     <!-- Main content with conditional rendering based on the toggle -->
-    <div class="flex flex-col lg:flex-row justify-around items-stretch h-full">
+    <div class="flex flex-col lg:flex-row lg:justify-around items-stretch h-full">
         <!-- Left Column: 30% Width -->
-        <div class="text-white flex flex-col items-center mt-6 lg:mt-0 basis-[30%] h-fullp-4 rounded-lg shadow-lg">
+        <div class="text-white flex flex-col items-center mt-6 lg:mt-0 basis-[30%] h-full p-4 rounded-lg shadow-lg w-[90%]">
             <span class="text-3xl text-green-400 mb-4">Your Top 3 Genres</span>
-            <ul class="flex flex-col space-y-4 w-[90%]">
+            <ul class="flex flex-col space-y-4 w-full ">
                 {#each topGenres as {genre, totalCount, readCount}}
                     <li class="bg-gray-700 rounded-lg p-4 shadow-md text-center h-full">
-                        <span class="font-bold text-xl">{genre}</span>
+                        <span class="font-bold text-lg">{genre}</span>
                         <div class="flex justify-center gap-4 my-2 text-2xl">
                             <div class="bg-green-300 text-black rounded-full w-14 h-14 flex items-center justify-center">{readCount}</div>
                             <div class="bg-red-300 text-black rounded-full w-14 h-14 flex items-center justify-center">{totalCount}</div>
@@ -90,8 +90,8 @@
             </ul>
         </div>
 
-        <!-- Center Column: 40% Width -->
-        <div class="flex flex-col items-center basis-[40%] h-full mx-4">
+        <!-- Center Column: 40% Width (This Column is First on Mobile) -->
+        <div class="flex flex-col items-center basis-[40%] h-full mx-4 mb-8 lg:mb-0">
             {#if showMotivating}
                 <StatisticView
                     title="You have read"

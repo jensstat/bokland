@@ -49,13 +49,11 @@
         showEditableView = !showEditableView;
     }
 </script>
-
-<div class="flex justify-between items-center p-6 bg-gray-100 border-b border-gray-300 shadow-md">
-    <!-- Logo / Title -->
-    <h1 class="text-2xl font-bold text-gray-700">Bokoversikt</h1>
+<div class="flex flex-col lg:flex-row lg:justify-between items-center p-4 bg-gray-100 border-b border-gray-300 shadow-md gap-4">
+    <h1 class="text-xl lg:text-2xl font-bold text-gray-700">Bokoversikt</h1>
 
     <!-- Login/Logout and View Toggle Buttons -->
-    <div class="flex gap-4">
+    <div class="flex flex-col sm:flex-row gap-4">
         {#if editing}
             <button on:click={logout} class="bg-red-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-red-600 transition">
                 Log Out
@@ -73,7 +71,7 @@
     </div>
 </div>
 
-<div class="p-6">
+<div class="p-4 lg:p-6">
     <!-- Display Table or Editable Table -->
     {#if showEditableView && editing}
         <EditableTableView {data} {formData} {editing} class="shadow-lg rounded-md overflow-hidden border border-gray-200" />
