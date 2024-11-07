@@ -74,7 +74,7 @@
     <!-- Main content with conditional rendering based on the toggle -->
     <div class="flex flex-col lg:flex-row lg:justify-around items-stretch h-full">
         <!-- Left Column: 30% Width -->
-        <div class="text-white flex flex-col items-center mt-6 lg:mt-0 basis-[30%] h-full p-4 rounded-lg shadow-lg w-[90%]">
+        <div class="text-white flex flex-col items-center mt-6 lg:mt-0 basis-[30%] h-full p-4 rounded-lg shadow-lg lg:w-[90%]">
             <span class="text-3xl text-green-400 mb-4">Your Top 3 Genres</span>
             <ul class="flex flex-col space-y-4 w-full ">
                 {#each topGenres as {genre, totalCount, readCount}}
@@ -91,7 +91,7 @@
         </div>
 
         <!-- Center Column: 40% Width (This Column is First on Mobile) -->
-        <div class="flex flex-col items-center basis-[40%] h-full mx-4 mb-8 lg:mb-0">
+        <div class="flex flex-col items-center basis-[40%] h-full mx-4 my-4 lg:mt-6">
             {#if showMotivating}
                 <StatisticView
                     title="You have read"
@@ -128,22 +128,22 @@
         </div>
 
         <!-- Right Column: 30% Width -->
-        <div class="text-white flex flex-col items-center mt-6 lg:mt-0 basis-[30%] h-full p-4 rounded-lg shadow-lg w-[90%]">
+        <div class="text-white flex flex-col items-center lg:mt-0 basis-[30%] h-full p-4 rounded-lg shadow-lg lg:w-[90%]">
             <span class="text-3xl text-green-400 mb-4">Books by Era</span>
             <ul class="space-y-4 w-full ">
-                <li class="bg-gray-700 rounded-lg p-4 shadow-md text-center h-full ">
+                <li class="bg-gray-700 rounded-lg p-6 shadow-md text-center h-full ">
                     <span class="font-bold text-lg">A: Before 1500</span>
                     <p class="text-green-300 text-2xl font-bold mt-2">{yearCategories.A}</p>
                 </li>
-                <li class="bg-gray-700 rounded-lg p-4 shadow-md text-center h-full">
+                <li class="bg-gray-700 rounded-lg p-6 shadow-md text-center h-full">
                     <span class="font-bold text-lg">B: 1500 - 1900</span>
                     <p class="text-green-300 text-2xl font-bold mt-2">{yearCategories.B}</p>
                 </li>
-                <li class="bg-gray-700 rounded-lg p-4 shadow-md text-center h-full">
+                <li class="bg-gray-700 rounded-lg p-6 shadow-md text-center h-full">
                     <span class="font-bold text-lg">C: 1900 - 1980</span>
                     <p class="text-green-300 text-2xl font-bold mt-2">{yearCategories.C}</p>
                 </li>
-                <li class="bg-gray-700 rounded-lg p-4 shadow-md text-center h-full">
+                <li class="bg-gray-700 rounded-lg p-6 shadow-md text-center h-full">
                     <span class="font-bold text-lg">D: 1980 to Today</span>
                     <p class="text-green-300 text-2xl font-bold mt-2">{yearCategories.D}</p>
                 </li>

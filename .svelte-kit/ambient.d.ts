@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const VITE_DATABASE_URL: string;
 	export const JWT_SECRET: string;
+	export const GOOGLE_API_KEY: string;
 	export const NVM_INC: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
@@ -70,6 +71,7 @@ declare module '$env/static/private' {
 	export const EDITOR: string;
 	export const npm_package_name: string;
 	export const LANG: string;
+	export const PYTHONSTARTUP: string;
 	export const npm_config_npm_version: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const XPC_FLAGS: string;
@@ -129,6 +131,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		VITE_DATABASE_URL: string;
 		JWT_SECRET: string;
+		GOOGLE_API_KEY: string;
 		NVM_INC: string;
 		TERM_PROGRAM: string;
 		NODE: string;
@@ -171,6 +174,7 @@ declare module '$env/dynamic/private' {
 		EDITOR: string;
 		npm_package_name: string;
 		LANG: string;
+		PYTHONSTARTUP: string;
 		npm_config_npm_version: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		XPC_FLAGS: string;

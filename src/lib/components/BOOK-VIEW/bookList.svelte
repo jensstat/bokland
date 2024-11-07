@@ -17,30 +17,29 @@
 
     let searchTerm = "";
 
-    export let data; // pass data from parent
+    export let data;
 
-    // Apply the filters and sorting in this component
     $: filteredBooks = filterBooks(data.books, selectedType, selectedLanguage, selectedGenre, selectedRead)
-    .filter(book => book.title.toLowerCase().includes(searchTerm.toLowerCase()));
+    .filter(book => 
+        book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        book.author.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
-    // sorting
     $: sortedBooks = [...filteredBooks].sort((a, b) => {
-    if (selectedSort === "title") return a.title.localeCompare(b.title);
-    if (selectedSort === "author") return a.author.localeCompare(b.author);
-    if (selectedSort === "year") return a.year - b.year;
-    if (selectedSort === "goodreads") {
-        // Handle cases where goodreads rating is missing
-        if (!a.goodreads) return 1;  // Push books without ratings to the back
-        if (!b.goodreads) return -1; // Push books without ratings to the back
-        return b.goodreads - a.goodreads; // Sort by goodreads (highest rating first)
-    }
+        if (selectedSort === "title") return a.title.localeCompare(b.title);
+        if (selectedSort === "author") return a.author.localeCompare(b.author);
+        if (selectedSort === "year") return a.year - b.year;
+        if (selectedSort === "goodreads") {
+            if (!a.goodreads) return 1;
+            if (!b.goodreads) return -1;
+            return b.goodreads - a.goodreads;
+        }
     });
-
 
     function toggleFilters() {
         showFilters = !showFilters;
     }
-    
+
     function onSortChange(event) {
         selectedSort = event.target.value;
     }
@@ -48,10 +47,17 @@
     function onToggleView() {
         isGridView = !isGridView;
     }
-
+    
+    function resetFilters() {
+        selectedType = "";
+        selectedLanguage = "";
+        selectedGenre = "";
+        selectedRead = "";
+        searchTerm = "";
+        selectedSort = "title";
+    }
 </script>
 
-<!-- Controls Bar -->
 <ControlsBar 
     bind:searchTerm
     {showFilters} 
@@ -59,19 +65,18 @@
     {selectedSort} 
     {onSortChange} 
     {isGridView} 
-    {onToggleView} 
+    {onToggleView}
 />
 
-<!-- Filter Menu -->
 <FilterMenu 
     bind:selectedType={selectedType} 
     bind:selectedLanguage={selectedLanguage} 
     bind:selectedGenre={selectedGenre} 
     bind:selectedRead={selectedRead} 
-    {showFilters} 
+    {showFilters}
+    resetFilters={resetFilters} 
 />
 
-<!-- Grid/List View -->
 {#if isGridView}
     <div class="grid-view flex-grow">
         <GridView {sortedBooks} />

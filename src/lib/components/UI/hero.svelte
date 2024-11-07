@@ -21,9 +21,7 @@
         <!-- Slideshow -->
         <div class="w-full sm:w-5/6 lg:w-4/5 overflow-hidden">
             <span class="text-xl sm:text-2xl font-bold text-gray-800 dark:text-gray-100 mb-2 block text-center lg:text-left">
-                <a href="#" class="hover:text-blue-700 dark:hover:text-red-300">
-                    Favoritter
-                </a>
+                Favoritter
             </span>
             <Slideshow {favoriteBooks} />
         </div>

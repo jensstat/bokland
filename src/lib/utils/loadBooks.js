@@ -4,6 +4,8 @@ import { fetchCover } from './fetchCover';
 
 export async function loadBooks() {
   try {
+
+
     // Attempt to fetch all books from the database
     const books = await query('SELECT * FROM books');
 
@@ -21,7 +23,7 @@ export async function loadBooks() {
           }
           return book; // Return the book as-is if no cover update is needed
         } catch (bookError) {
-          console.error(`Error processing book with ID ${book.id}:`, bookError);
+          console.error('Error processing book with ID ${book.id}:', bookError);
           return book; // Skip the update for this book and return it unchanged
         }
       })
